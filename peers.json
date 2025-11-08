@@ -2,101 +2,121 @@
   {
     "name": "Aarav Mehta",
     "bio": "Interested in robotics and mechanical design",
-    "skills": "Arduino, Python, SolidWorks"
+    "skills": "Arduino, Python, SolidWorks",
+    "class": "EP SEC-2"
   },
   {
     "name": "Riya Kapoor",
     "bio": "Passionate about marketing, content creation, and event management",
-    "skills": "Canva, Social Media, Copywriting"
+    "skills": "Canva, Social Media, Copywriting",
+    "class":"CS SEC-4"
   },
   {
     "name": "Kabir Singh",
     "bio": "Love competitive coding and backend development",
-    "skills": "C++, Django, Databases"
+    "skills": "C++, Django, Databases",
+    "class":"ENE SEC-1"
   },
   {
     "name": "Vedant Khanna",
     "bio": "AI/ML enthusiast with experience in Python and machine learning models",
-    "skills": "Python, scikit-learn, TensorFlow"
+    "skills": "Python, scikit-learn, TensorFlow",
+    "class":"EP SEC-2"
   },
   {
     "name": "Armaan Tokas",
     "bio": "Electrical engineer with interest in Arduino, IoT and robotics",
-    "skills": "Python, MATLAB, Arduino IDE"
+    "skills": "Python, MATLAB, Arduino IDE",
+    "class":"EP SEC-1"
   },
   {
     "name": "Tanya Sharma",
     "bio": "Enjoys building mobile apps and exploring UI/UX design trends",
-    "skills": "Flutter, Figma, React Native"
+    "skills": "Flutter, Figma, React Native",
+    "class":"ME SEC-1"
   },
   {
     "name": "Rohit Verma",
     "bio": "Cybersecurity enthusiast, loves solving CTFs and learning ethical hacking",
-    "skills": "Kali Linux, Wireshark, Python"
+    "skills": "Kali Linux, Wireshark, Python",
+    "class":"SE SEC-2"
   },
   {
     "name": "Mehak Bansal",
     "bio": "Data science lover with a passion for visualization and analytics",
-    "skills": "Python, Pandas, Power BI"
+    "skills": "Python, Pandas, Power BI",
+    "class":"IT SEC-3"
   },
   {
     "name": "Harsh Raj",
     "bio": "Competitive programmer and open-source contributor, loves problem solving",
-    "skills": "C++, Git, Algorithms"
+    "skills": "C++, Git, Algorithms",
+    "class":"MCE SEC-2"
   },
   {
     "name": "Sanya Gupta",
     "bio": "Interested in AI, startups, and product management",
-    "skills": "Python, Excel, Business Strategy"
+    "skills": "Python, Excel, Business Strategy",
+    "class":"BT SEC-1"
   },
   {
     "name": "Yash Tiwari",
     "bio": "Game developer who loves designing 2D and 3D worlds",
-    "skills": "Unity, Blender, C#"
+    "skills": "Unity, Blender, C#",
+    "class":"EE SEC-2"
   },
   {
     "name": "Ananya Iyer",
     "bio": "Web developer and creative designer with an interest in hackathons",
-    "skills": "HTML, CSS, JavaScript, React"
+    "skills": "HTML, CSS, JavaScript, React",
+    "class":"MAM SEC-1"
   },
   {
     "name": "Devansh Rana",
     "bio": "AI researcher exploring deep learning and computer vision",
-    "skills": "PyTorch, OpenCV, Python"
+    "skills": "PyTorch, OpenCV, Python",
+    "class":"CS SEC-2"
   },
   {
     "name": "Nikita Agarwal",
     "bio": "Interested in finance, data analytics, and stock prediction models",
-    "skills": "R, Python, Excel"
+    "skills": "R, Python, Excel",
+    "class":"CHE SEC-1"
   },
   {
     "name": "Aditya Singh",
     "bio": "Sports enthusiast who codes for fun, especially in Java and C++",
-    "skills": "Java, C++, Football"
+    "skills": "Java, C++, Football",
+    "class":"CHE SEC-2"
   },
   {
     "name": "Ishita Malhotra",
     "bio": "Interested in content writing, marketing, and data-driven storytelling",
-    "skills": "SEO, Google Analytics, Content Strategy"
+    "skills": "SEO, Google Analytics, Content Strategy",
+    "class":"ITCY SEC-2"
   },
   {
     "name": "Aman Bhatia",
     "bio": "Mechanical engineer who enjoys 3D modeling and drone projects",
-    "skills": "SolidWorks, Fusion360, CAD"
+    "skills": "SolidWorks, Fusion360, CAD",
+    "class":"EVDT SEC-1"
   },
   {
     "name": "Simran Kaur",
     "bio": "AR/VR developer exploring immersive experiences and 3D graphics",
-    "skills": "Unity, C#, ARCore"
+    "skills": "Unity, C#, ARCore",
+    "class":"ECE SEC-2"
   },
   {
     "name": "Krish Patel",
     "bio": "AI/ML enthusiast who loves experimenting with generative AI tools",
-    "skills": "TensorFlow, LangChain, OpenAI API"
+    "skills": "TensorFlow, LangChain, OpenAI API",
+    "class":"ECE SEC-1"
   },
   {
     "name": "Priya Nair",
     "bio": "Frontend developer and dance lover who enjoys building interactive websites",
-    "skills": "React, HTML, CSS, Bharatnatyam"
+    "skills": "React, HTML, CSS, Bharatnatyam",
+    "class":"EE SEC-1"
   }
 ]

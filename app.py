@@ -4,21 +4,23 @@ import numpy as np
 import google.generativeai as genai
 from dotenv import load_dotenv
 import os
-import json
-import numpy as np
+
+# Load environment variables
 load_dotenv()
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+
 # Streamlit setup
 st.set_page_config(page_title="DTU Connect", layout="centered")
 st.title("DTU Connect")
 
-st.write("Find peers or societies that match your interests and skills.")
+st.write("Find peers or societies that match your interests, skills, and class!")
 
 # Sidebar switch
 mode = st.sidebar.radio("Choose what to find:", ["Peers", "Societies"])
 
 # Input section
 user_bio = st.text_area("Describe yourself – your interests, skills, or goals")
+user_class = st.text_input("Enter your class(optional) (e.g., EP SEC-2)")
 
 # Function to generate embeddings using Gemini
 def get_embedding(text):
@@ -46,17 +48,22 @@ if st.button("Find Matches"):
 
                 # Compute cosine similarity
                 sim = np.dot(user_emb, peer_emb) / (np.linalg.norm(user_emb) * np.linalg.norm(peer_emb))
-                results.append((peer["name"], peer["bio"], peer["skills"], sim))
+
+                # Class bonus
+                bonus = 0.1 if user_class.strip().lower() == peer["class"].strip().lower() else 0
+                sim = min(sim + bonus, 1.0)  # add class weight safely
+
+                results.append((peer["name"], peer["bio"], peer["skills"], peer["class"], sim))
 
             # Sort top 5
-            top_matches = sorted(results, key=lambda x: x[3], reverse=True)[:5]
+            top_matches = sorted(results, key=lambda x: x[4], reverse=True)[:5]
 
-            st.subheader("Recommended Peers")
-            for name, bio, skills, score in top_matches:
-                st.markdown(f"**{name}**")
-                st.write(f"Bio: {bio}")
-                st.write(f"Skills: {skills}")
-                st.caption(f"Similarity: {round(score * 100, 1)}%")
+            st.subheader(" Recommended Peers")
+            for name, bio, skills, peer_class, score in top_matches:
+                st.markdown(f"**{name}** — *{peer_class}*")
+                st.write(f"**Bio:** {bio}")
+                st.write(f"**Skills:** {skills}")
+                st.caption(f"Match Score: {round(score * 100, 1)}%")
                 st.divider()
 
         else:  # Society mode
@@ -66,14 +73,13 @@ if st.button("Find Matches"):
             results = []
             for soc in societies:
                 soc_emb = get_embedding(soc["tags"])
-
                 sim = np.dot(user_emb, soc_emb) / (np.linalg.norm(user_emb) * np.linalg.norm(soc_emb))
                 results.append((soc["name"], soc["tags"], sim))
 
             top_matches = sorted(results, key=lambda x: x[2], reverse=True)[:5]
 
-            st.subheader("Recommended Societies")
+            st.subheader(" Recommended Societies")
             for name, tags, score in top_matches:
-                st.markdown(f"**{name}** – {tags}")
+                st.markdown(f"**{name}** — {tags}")
                 st.progress(float(score))
-                st.caption(f"Match: {round(score * 100, 1)}%")
+                st.caption(f"Match Strength: {round(score * 100, 1)}%")
