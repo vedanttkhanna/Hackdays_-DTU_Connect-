@@ -1,0 +1,57 @@
+[
+  {"name": "AIMS", "tags": "AI, Machine Learning, Deep Learning, Vision"},
+  {"name": "IEEE DTU", "tags": "Robotics, IoT, Technology"},
+  {"name": "DCS", "tags": "Startups, Entrepreneurship, Management"},
+  {"name": "DSD", "tags": "Design, UI/UX, Creativity"},
+  {"name": "Kalakriti", "tags": "Culture, Music, Art, Heritage"},
+  {"name": "UGV", "tags": "Unmanned vehicles, Machine Learning,Robotics,AI"},
+  {"name": "AUV", "tags": "Unmanned vehicles, Machine Learning,Robotics, Aquatic Bots"},
+  {
+    "name": "E-Cell DTU",
+    "tags": "Entrepreneurship, Startups, Business, Innovation, E-Cell"
+  },
+  {
+    "name": "Society for Automotive Engineers (SAE) DTU",
+    "tags": "Automotive, Motorsports, Design, Cars, Engineering"
+  },
+  {
+    "name": "Robotics Club DTU",
+    "tags": "Robotics, Autonomous, IoT, Arduino, Mechatronics"
+  },
+  {
+    "name": "Programming Club DTU",
+    "tags": "Competitive Programming, Algorithms, Python, Hackathons"
+  },
+  {
+    "name": "Photography Club DTU",
+    "tags": "Photography, Videography, Media, Creative, Club"
+  },
+  {
+    "name": "Fine Arts Society DTU (Kalakriti)",
+    "tags": "Arts, Drawing, Painting, Creative, Fine Arts"
+  },
+  {
+    "name": "Music Society DTU (Madhurima)",
+    "tags": "Music, Singing, Instruments, Cultural, Society"
+  },
+  {
+    "name": "Dance Society DTU (VIBE)",
+    "tags": "Dance, Choreography, Culture, Performance"
+  },
+  {
+    "name": "Drama Society DTU (Pratibimb)",
+    "tags": "Theatre, Drama, Performance, Acting, Cultural"
+  },
+  {
+    "name": "Entrepreneurship Cell DTU (E-Cell)",
+    "tags": "Startups, Entrepreneurship, Business, Innovation"
+  },
+  {
+    "name": "Marketing Club DTU (M-Cube)",
+    "tags": "Marketing, Media, Events, Strategy, Club"
+  },
+  {
+    "name": "Literary & Debating Club DTU (Alfaaz)",
+    "tags": "Literary, Debating, Writing, Communication"
+  }
+]

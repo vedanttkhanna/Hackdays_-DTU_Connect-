@@ -16,12 +16,87 @@
   },
   {
     "name": "Vedant Khanna",
-    "bio": "AI/ML enthusiast with experience in python and ML models",
-    "skills": "python, sklearn, tensorflow"
+    "bio": "AI/ML enthusiast with experience in Python and machine learning models",
+    "skills": "Python, scikit-learn, TensorFlow"
   },
   {
     "name": "Armaan Tokas",
-    "bio": "electrical engineer with intrest in arduino, IOT and robotics",
-    "skills": "python, Matlab, Arduino IDE"
+    "bio": "Electrical engineer with interest in Arduino, IoT and robotics",
+    "skills": "Python, MATLAB, Arduino IDE"
+  },
+  {
+    "name": "Tanya Sharma",
+    "bio": "Enjoys building mobile apps and exploring UI/UX design trends",
+    "skills": "Flutter, Figma, React Native"
+  },
+  {
+    "name": "Rohit Verma",
+    "bio": "Cybersecurity enthusiast, loves solving CTFs and learning ethical hacking",
+    "skills": "Kali Linux, Wireshark, Python"
+  },
+  {
+    "name": "Mehak Bansal",
+    "bio": "Data science lover with a passion for visualization and analytics",
+    "skills": "Python, Pandas, Power BI"
+  },
+  {
+    "name": "Harsh Raj",
+    "bio": "Competitive programmer and open-source contributor, loves problem solving",
+    "skills": "C++, Git, Algorithms"
+  },
+  {
+    "name": "Sanya Gupta",
+    "bio": "Interested in AI, startups, and product management",
+    "skills": "Python, Excel, Business Strategy"
+  },
+  {
+    "name": "Yash Tiwari",
+    "bio": "Game developer who loves designing 2D and 3D worlds",
+    "skills": "Unity, Blender, C#"
+  },
+  {
+    "name": "Ananya Iyer",
+    "bio": "Web developer and creative designer with an interest in hackathons",
+    "skills": "HTML, CSS, JavaScript, React"
+  },
+  {
+    "name": "Devansh Rana",
+    "bio": "AI researcher exploring deep learning and computer vision",
+    "skills": "PyTorch, OpenCV, Python"
+  },
+  {
+    "name": "Nikita Agarwal",
+    "bio": "Interested in finance, data analytics, and stock prediction models",
+    "skills": "R, Python, Excel"
+  },
+  {
+    "name": "Aditya Singh",
+    "bio": "Sports enthusiast who codes for fun, especially in Java and C++",
+    "skills": "Java, C++, Football"
+  },
+  {
+    "name": "Ishita Malhotra",
+    "bio": "Interested in content writing, marketing, and data-driven storytelling",
+    "skills": "SEO, Google Analytics, Content Strategy"
+  },
+  {
+    "name": "Aman Bhatia",
+    "bio": "Mechanical engineer who enjoys 3D modeling and drone projects",
+    "skills": "SolidWorks, Fusion360, CAD"
+  },
+  {
+    "name": "Simran Kaur",
+    "bio": "AR/VR developer exploring immersive experiences and 3D graphics",
+    "skills": "Unity, C#, ARCore"
+  },
+  {
+    "name": "Krish Patel",
+    "bio": "AI/ML enthusiast who loves experimenting with generative AI tools",
+    "skills": "TensorFlow, LangChain, OpenAI API"
+  },
+  {
+    "name": "Priya Nair",
+    "bio": "Frontend developer and dance lover who enjoys building interactive websites",
+    "skills": "React, HTML, CSS, Bharatnatyam"
   }
 ]
