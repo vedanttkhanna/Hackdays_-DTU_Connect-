@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Aarav Mehta",
+    "bio": "Interested in robotics and mechanical design",
+    "skills": "Arduino, Python, SolidWorks"
+  },
+  {
+    "name": "Riya Kapoor",
+    "bio": "Passionate about marketing, content creation, and event management",
+    "skills": "Canva, Social Media, Copywriting"
+  },
+  {
+    "name": "Kabir Singh",
+    "bio": "Love competitive coding and backend development",
+    "skills": "C++, Django, Databases"
+  },
+  {
+    "name": "Vedant Khanna",
+    "bio": "AI/ML enthusiast with experience in python and ML models",
+    "skills": "python, sklearn, tensorflow"
+  },
+  {
+    "name": "Armaan Tokas",
+    "bio": "electrical engineer with intrest in arduino, IOT and robotics",
+    "skills": "python, Matlab, Arduino IDE"
+  }
+]
