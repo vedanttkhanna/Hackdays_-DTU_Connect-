@@ -4,7 +4,7 @@
   {"name": "DCS", "tags": "Startups, Entrepreneurship, Management"},
   {"name": "DSD", "tags": "Design, UI/UX, Creativity"},
   {"name": "Kalakriti", "tags": "Culture, Music, Art, Heritage"},
-  {"name": "UGV", "tags": "Unmanned vehicles, Machine Learning,Robotics,AI"},
+  {"name": "UGV", "tags": "Unmanned vehicles, Machine Learning,Robotics"},
   {"name": "AUV", "tags": "Unmanned vehicles, Machine Learning,Robotics, Aquatic Bots"},
   {
     "name": "E-Cell DTU",
@@ -62,9 +62,16 @@
     "name": "Team Defianz racing(TDR)",
     "tags": "motorsports,f1,automobile engineering"
   },
-  
   {
     "name": "Engifest",
     "tags": "fest management,management,adminstration"
+  },
+  {
+    "name": "UAS",
+    "tags": "drones,machine learning,aerial systems"
+  },
+  {
+    "name": "Rocketry",
+    "tags": "Rockets,machine learning,aerial systems,physics"
   }
 ]
